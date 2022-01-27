@@ -2,7 +2,6 @@
 
 
 
-[TOC]
 
 ## 1.setting
 
@@ -11,6 +10,9 @@ xavier 보드에 설치한 소프트웨어 사양과 설치방법 등을 포함�
 `xavier-setting.md` 파일의 내용과 참조 링크들을 참고하여 설치가능하다. 
 
 
+</br>
+
+-----
 
 
 
@@ -24,10 +26,21 @@ saved model 형식의 모델을 사용하는 코드부터, saved model을 frozen
 - frozen graph: 더 이상 학습이 불가하도록 가중치와 모델 구조를 결합한 형태이다. 디바이스에 포팅할 때 주로 사용한다.
 
 
+</br>
+
+-----
+
+
+
 
 ## 3. TFLite-edge tpu
 
  Tensorflow Lite 와 Edge TPU 를 사용하여 모델을 변환하고 추론하는 예제이다.  `edgetpu_classifier.ipynb` 파일부터 보면 된다.
+
+
+</br>
+
+-----
 
 
 
@@ -40,7 +53,7 @@ saved model 형식의 모델을 사용하는 코드부터, saved model을 frozen
 - `function_devide_running_model.ipynb` 파일 존재
 - TF-TRT (TensroFlow - TensorRT) 와 TFLite (edgeTPU) 모델을 사용하여 추론하는 예제이다.
 
-
+</br>
 
 ### 4.2. model test
 
@@ -67,6 +80,11 @@ saved model 형식의 모델을 사용하는 코드부터, saved model을 frozen
 4. loading term
    - 모델을 로딩하는 예제이다. keras.models.load_model 함수를 사용하는 것과, 저장된 모델구조와 가중치로부터 모델을 구성하는 시간을 비교한다.
 
+
+
+</br>
+
+-----
 
 
 ## 5. mobius-file-upload, download
